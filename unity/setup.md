@@ -1,5 +1,9 @@
 # Unityのセットアップについて
 
+## はじめに
+
+Oculusアプリから開発者モードを有効にする。Webからの登録作業は私が済ませたので不要なはず。
+
 ## インストールするもの
 
 * [Android Studio](https://developer.android.com/studio/?hl=ja#downloads)
@@ -13,6 +17,19 @@
   * Unity 2018.1.4f1
 
 ## 各種セットアップ
+
+### JDK
+
+インストールするだけ
+
+### Android Studio
+
+* SDKのインストール
+  * 右下の歯車アイコンからSDK Managerを選択
+    ![SDK Managerを開く](./img/select_sdk_manager.png)
+  * 以下の画像の通りにSDKを追加(最後にApplyを押してインストールする)
+    ![SDK Platforms](./img/sdk_platforms.png)
+    ![SDK Tools](./img/sdk_tools.png)
 
 ### Unity
 
@@ -47,9 +64,3 @@
       ![Virtual Reality Supportedにチェック](./img/check_virtual_reality_supported.png)
     * Virtual Reality SDKsでOculusを追加(クリック)
       ![Oculusの追加](./img/add_oculus.png)
-
-### JDK
-
-インストールするだけ
-
-### Android Studio
