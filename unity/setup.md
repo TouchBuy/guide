@@ -16,9 +16,14 @@
 
 ### Unity
 
-* 先ほどインストールしたJDKとAndroid SDKのパスを設定する。
-  ![パスの設定](./img/path.png)
-* ビルド設定でプラットフォームをAndroidにする。
+* JDKとAndroid SDKのパスを設定する。
+  * EditからPreferencesを開く
+    ![Preferencesを開く](./img/open_preferences.png)
+  * External Toolsからパスを設定する
+    ![パスの設定](./img/path.png)
+* プラットフォームをAndroidにする。
+  * FileからBuild Settingsを開く
+  ![Build Settingsを開く](./img/open_build_settings.png)
   * Androidを選択
     ![Androidを選択](./img/select_android.png)
   * Switch Platformをクリック
@@ -35,13 +40,12 @@
       ![Packege Nameの変更](./img/change_package_name.png)
   * Minimum API Levelの変更
     * "Android 7.1 'Nougut' (API level 25)" にする
-      ![Minumum API Levelの変更](./img/change_minimum_api_level)
+      ![Minumum API Levelの変更](./img/change_minimum_api_level.png)
   * XR Settingsの変更
-    * XR Settingsを選択する
-      ![XR Settingsを選択](./img/select_xr_settings.png)
+    * XR Settingsを選択する(下のほうにスクロールするとある)
     * Virtual Reality Supportedにチェック
       ![Virtual Reality Supportedにチェック](./img/check_virtual_reality_supported.png)
-    * Virtual Reality SDKsでOculusを追加
+    * Virtual Reality SDKsでOculusを追加(クリック)
       ![Oculusの追加](./img/add_oculus.png)
 
 ### JDK
