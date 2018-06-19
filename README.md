@@ -39,4 +39,6 @@ set_git_sysken_proxy.bat
 
 unset_git_sysken_proxy.bat
     proxyを設定解除します。
-
+### unity
+@glatan
+ここにunityフォルダのtreeとそれぞれの説明っぽいのお願いします。
