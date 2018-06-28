@@ -42,3 +42,14 @@ unset_git_sysken_proxy.bat
 ### unity
 @glatan
 ここにunityフォルダのtreeとそれぞれの説明っぽいのお願いします。
+### JulyIdea
+7月にUnityでOculusGoで動くsomethingを作る！
+そのアイディアを.md形式で書いてください。
+```
+guide
+    ├─JulyIdea
+    │  ├─glatan ← for glatan
+    │  ├─satosumo ← for satoo
+    │  └─terfno ← for terfno
+```
+頑張ろう！
