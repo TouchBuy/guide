@@ -11,6 +11,7 @@ Oculusアプリから開発者モードを有効にする。Webからの登録�
 * [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
   * Java SE Development Kit 8u172
   * Windows x64
+* [Oculus Go ADB Drivers](https://developer.oculus.com/downloads/package/oculus-go-adb-drivers/)
 * [Unity Hub](https://unity3d.com/jp/get-unity/download)
 * Unity
   * Unity Hub経由でのインストールがおすすめ
@@ -19,6 +20,10 @@ Oculusアプリから開発者モードを有効にする。Webからの登録�
 ## 各種セットアップ
 
 ### JDK
+
+インストールするだけ
+
+### Oculus Go ADB Drivers
 
 インストールするだけ
 
