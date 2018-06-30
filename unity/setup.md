@@ -76,6 +76,11 @@ Oculusアプリから開発者モードを有効にする。Webからの登録�
       <div style="text-align:center">
         <img src="./img/change_minimum_api_level.png" alt="Minumum API Levelの変更"/>
       </div>
+  * Target API Levelの変更
+    * "Android 7.1 'Nougut' (API level 25)" にする
+      <div style="text-align:center">
+        <img src="./img/change_target_api_level.png" alt="Target API Levelの変更"/>
+      </div>
   * XR Settingsの変更
     * XR Settingsを選択する(下のほうにスクロールするとある)
     * Virtual Reality Supportedにチェック
