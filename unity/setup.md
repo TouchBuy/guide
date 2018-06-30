@@ -11,6 +11,7 @@ Oculusアプリから開発者モードを有効にする。Webからの登録�
 * [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
   * Java SE Development Kit 8u172
   * Windows x64
+* [Oculus Go ADB Drivers](https://developer.oculus.com/downloads/package/oculus-go-adb-drivers/)
 * [Unity Hub](https://unity3d.com/jp/get-unity/download)
 * Unity
   * Unity Hub経由でのインストールがおすすめ
@@ -22,45 +23,75 @@ Oculusアプリから開発者モードを有効にする。Webからの登録�
 
 インストールするだけ
 
+### Oculus Go ADB Drivers
+
+インストールするだけ
+
 ### Android Studio
 
 * SDKのインストール
   * 右下の歯車アイコンからSDK Managerを選択
-    ![SDK Managerを開く](./img/select_sdk_manager.png)
+    <div style="text-align:center">
+      <img src="./img/select_sdk_manager.png" alt="SDK Managerを開く"/>
+    </div>
   * 以下の画像の通りにSDKを追加(最後にApplyを押してインストールする)
-    ![SDK Platforms](./img/sdk_platforms.png)
-    ![SDK Tools](./img/sdk_tools.png)
+    <div style="text-align:center">
+      <img src="./img/sdk_platforms.png" alt="SDK Platforms"/>
+      <img src="./img/sdk_tools.png" alt="SDK Tools"/>
+    </div>
 
 ### Unity
 
-* JDKとAndroid SDKのパスを設定する。
-  * EditからPreferencesを開く
-    ![Preferencesを開く](./img/open_preferences.png)
-  * External Toolsからパスを設定する
-    ![パスの設定](./img/path.png)
 * プラットフォームをAndroidにする。
   * FileからBuild Settingsを開く
-  ![Build Settingsを開く](./img/open_build_settings.png)
+    <div style="text-align:center">
+      <img src="./img/open_build_settings.png" alt="Build Settingsを開く"/>
+    </div>
   * Androidを選択
-    ![Androidを選択](./img/select_android.png)
+    <div style="text-align:center">
+      <img src="./img/select_android.png" alt="Androidを選択"/>
+    </div>
   * Switch Platformをクリック
-    ![Switch Platformをクリック](./img/click_switch_platform.png)
+    <div style="text-align:center">
+      <img src="./img/click_switch_platform.png" alt="Switch Platformをクリック"/>
+    </div>
 * Player Settingsの変更
   * Player Settingsをクリック
-    ![Player Settingsをクリック](./img/click_player_settings.png)
-    ![右側にある](./img/is_player_settings.png)
+    <div style="text-align:center">
+      <img src="./img/click_player_settings.png" alt="Player Settingsをクリック"/>
+      <img src="./img/is_player_settings.png" alt="右側にある"/>
+    </div>
   * Company NameとProduct Nameの変更
     * お好みの名前に変更する
-      ![名前の変更](./img/change_name.png)
+      <div style="text-align:center">
+        <img src="./img/change_name.png" alt="名前の変更"/>
+      </div>
   * Package Nameの変更
     * 設定したCompany NameとProduct Nameをもとにして "com.{Company Name}.{Product Name}" の形にする
-      ![Packege Nameの変更](./img/change_package_name.png)
+      <div style="text-align:center">
+        <img src="./img/change_package_name.png" alt="Packege Nameの変更"/>
+      </div>
   * Minimum API Levelの変更
     * "Android 7.1 'Nougut' (API level 25)" にする
-      ![Minumum API Levelの変更](./img/change_minimum_api_level.png)
+      <div style="text-align:center">
+        <img src="./img/change_minimum_api_level.png" alt="Minumum API Levelの変更"/>
+      </div>
   * XR Settingsの変更
     * XR Settingsを選択する(下のほうにスクロールするとある)
     * Virtual Reality Supportedにチェック
-      ![Virtual Reality Supportedにチェック](./img/check_virtual_reality_supported.png)
+      <div style="text-align:center">
+        <img src="./img/check_virtual_reality_supported.png" alt="Virtual Reality Supportedにチェック"/>
+      </div>
     * Virtual Reality SDKsでOculusを追加(クリック)
-      ![Oculusの追加](./img/add_oculus.png)
+      <div style="text-align:center">
+        <img src="./img/add_oculus.png" alt="Oculusの追加"/>
+      </div>
+* JDKとAndroid SDKのパスを設定する。
+  * EditからPreferencesを開く
+    <div style="text-align:center">
+      <img src="./img/open_preferences.png" alt="Preferencesを開く"/>
+    </div>
+  * External Toolsからパスを設定する
+    <div style="text-align:center">
+      <img src="./img/path.png" alt="パスの設定"/>
+    </div>
